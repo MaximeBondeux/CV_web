@@ -1,0 +1,63 @@
+h1{
+    text-align: center;
+    border-width:1px;
+    border-style:solid;
+    border-color:blue;
+    margin: auto;
+    width: 250px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    text-align: center;
+    border-width:1px;
+    border-style:solid;
+    border-color:black;
+    flex-grow: 2;
+}
+
+ul li{
+    list-style: none;
+}
+
+header #header_main_section{
+    display: flex;
+    justify-content: space-between;
+}
+
+header #header_main_section section{
+    width: 30%;
+}
+
+section #Cv{
+    text-align: right;
+}
+
+header nav{
+    width: 100%;
+}
+
+footer{
+    border-width:1px;
+    display: flex;
+    text-align: center;
+    border-style: solid;
+    border-color:black;
+    justify-content: space-around;
+    flex-grow: 2px;
+}
+
+
+.regle{
+    text-align: center;
+}
+
+
+
