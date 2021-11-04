@@ -29,7 +29,7 @@ ul li{
 
 header #header_main_section{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 header #header_main_section section{
@@ -54,10 +54,6 @@ footer{
     flex-grow: 2px;
 }
 
-
-.regle{
-    text-align: center;
-}
-
-
-
+@media screen and (min-width: 360px) {
+  
+} 
