@@ -51,7 +51,10 @@ header{
     background-color: white;
 }
 
-
+.section{
+    padding-top: 6%;
+    margin: 0;
+}
 
 footer{
     border-width:1px;
