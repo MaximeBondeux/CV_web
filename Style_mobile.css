@@ -1,0 +1,129 @@
+/* Les résolutions inférieures à 480px (SmartPhone)
+Les résolutions entre 480 et 768px (Tablettes)
+Les résolutions supérieures à 768px (Les écrans de PC) */
+@media screen and (max-width: 480px) {
+    header{
+        position: sticky;
+        top: 0;
+        width: 100%;
+        background-color: blue;
+        font-size: 0.65rem;
+    }
+
+    header nav{
+        display: none;
+    }
+
+    header #header_main_section{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    header #header_main_section section{
+        width: 33%;
+    }
+
+   header section #titre h1{
+       top: 0%;
+       margin: 0%;
+       text-align: center;
+        color: white;
+        border-width:1px;
+        border-style:solid;
+        border-color:blue;
+        font-size: 1.2rem;
+   }
+
+    /* Dropdown Button */
+    .dropbtn {
+        background-color: #4CAF50;
+        color: white;
+        padding: 12px;
+        border: none;
+        font-size: 1.2rem;
+        height: 100% ;
+        cursor: pointer;
+    }
+
+    /* The container <div> - needed to position the dropdown content */
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    /* Dropdown Content (Hidden by Default) */
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        font-size: 1rem;
+        min-width: 480px;
+    }
+
+    /* Links inside the dropdown */
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+    /* Change color of dropdown links on hover */
+    .dropdown-content a:hover {background-color: #f1f1f1}
+
+    /* Show the dropdown menu on hover */
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    /* Change the background color of the dropdown button when the dropdown content is shown */
+    .dropdown:hover .dropbtn {
+        background-color: #3e8e41;
+    }
+   
+    section #Cv{
+        text-align: center;
+        top: 0%;
+    }
+
+    .block{
+        padding-top: 7%;
+        margin: 0;
+    }
+
+    .list_comp{
+        display: flex;
+    }
+
+    #photo{
+        width: 75px;
+    }
+
+    .img_comp{
+        width: 50px;
+        height: auto;
+    }
+
+    .img_contact{
+        width: 50px;
+    }
+
+    html{
+        font-size: 1.2rem;
+
+    }
+
+    footer a{
+        color: white;
+        text-align: center;
+    }
+    
+    footer #main_section_footer{
+        display: flex;
+        justify-content: space-around;
+        color: white;
+        background-color: blue;
+        
+    }
+
+}
