@@ -13,7 +13,7 @@ Les résolutions supérieures à 768px (Les écrans de PC) */
     header nav{
         display: none;
     }
-
+/*  */
     header #header_main_section{
         display: flex;
         justify-content: space-around;
