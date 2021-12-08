@@ -114,6 +114,10 @@ Les résolutions supérieures à 769px (Les écrans de PC) */
     }
     .img {
         width: 50px;
+        margin-right: 2%;
+    }
+    .form_list {
+        margin-bottom: 2%;
     }
     footer {
         display: block;
