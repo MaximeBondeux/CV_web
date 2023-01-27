@@ -4,7 +4,7 @@ Les résolutions supérieures à 769px (Les écrans de PC) */
 
 @media screen and (max-width: 480px) {
     html {
-        font-size: 0.8rem;
+        font-size: 0.8vh;
         width: 480px;
         font-family: Arial, Helvetica, sans-serif;
     }
